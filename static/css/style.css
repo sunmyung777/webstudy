@@ -1,0 +1,79 @@
+body{
+  margin:0;
+  padding:0;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+}
+.outline{
+  position: relative;
+  width:100vw;
+  height:100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index_body{
+  width:80vw;
+  height:100vh;
+}
+.index_nav{
+  margin-top: 30px;
+}
+a.logo{
+  font-family: 'Parisienne', cursive;
+  color:white;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.navigator{
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+.navigator div{
+  padding:10px 20px 10px 20px;
+  color: white;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+}
+.navigator div:hover{
+  background-color: white;
+  color:black;
+  transition: 0.5s;
+}
+.intro{
+  font-family: 'Permanent Marker', cursive;
+
+  color:white;
+  font-size: 70px;
+}
+.intro_main{
+  position: relative;
+  top:30%;
+  left:10%;
+}
+.intro_lorem{
+  width:500px;
+  color:white;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.button button{
+  float: left;
+  font-size: 20px;
+  font-family: 'Do Hyeon', sans-serif;
+  padding:10px 20px 10px 20px;
+  margin:10px 20px 0 0;
+  text-decoration:none;
+  color:white;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5%;
+  border:1px solid white;
+}
+.button button:hover{
+  background-color:white;
+  color:black;
+  transition: 0.3s;
+}
